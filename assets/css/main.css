@@ -2315,7 +2315,15 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+  
+/* One-2 */
 
+	#one-2 {
+		background: url("images/overlay.png"), url("../../images/one-2.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 /* Two */
 
 	#two {
