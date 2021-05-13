@@ -1,105 +1,96 @@
-<!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Xerellian Press</title>
+		<title>Russell 2015 Music</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/music.css" />
+    <link rel="stylesheet" href="assets/css/music.css" />
 	</head>
+
 	<body>
-		<!-- Header -->
+  		<!-- Header -->
     <header class="header">
-      <h1>Russell 2015</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
+      <nav><a href="index.html#music">Return to Website</a></nav>
 		</header>
-      
-		<!-- Banner -->
-		<div id="banner"></div>   
 
-		<!-- Music -->
-    <section>
-      <div>
-        <table id="songs" class="center">
-          <tr>
-            <th>Song</th>
-            <th>Player</th>
-          </tr>
-          <tr>
-            <td>One, Two, Three</td>
-            <td><audio controls>
-                  <source src="music/2015/one_two_three.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-          <tr>
-            <td>Been Here Before</td>
-            <td><audio controls>
-                  <source src="music/2015/been_here_before.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-          <tr>
-            <td>Lucky Sevens</td>
-            <td><audio controls>
-                  <source src="music/2015/lucky_sevens.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-          <tr>
-            <td>All Alone</td>
-            <td><audio controls>
-                  <source src="music/2015/all alone.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-          <tr>
-            <td>For Me and You</td>
-            <td><audio controls>
-                  <source src="music/2015/for_me_and_you.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-          <tr>
-            <td>I'm Missing You</td>
-            <td><audio controls>
-                  <source src="music/2015/im_missing_you.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-          <tr>
-            <td>Never Did I think</td>
-            <td><audio controls>
-                  <source src="music/2015/never_did_i_think.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </section>
-
+  		<!-- Music -->    
+    <div class="container">
+        <div class="column center">
+            <h1>Russell 2015</h1>
+            <h6>HTML5 Audio Player</h6>
+        </div>
+        <div class="column add-bottom">
+            <div id="mainwrap">
+                <div id="nowPlay">
+                    <span class="left" id="npAction">Paused...</span>
+                    <span class="right" id="npTitle"></span>
+                </div>
+                <div id="audiowrap">
+                    <div id="audio0">
+                        <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                    </div>
+                </div>
+                <div id="plwrap">
+                    <ul id="plList">
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">01.</div>
+                                <div class="plTitle" id="MyTrack1"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">02.</div>
+                                <div class="plTitle" id="MyTrack2"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">03.</div>
+                                <div class="plTitle" id="MyTrack3"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">04.</div>
+                                <div class="plTitle" id="MyTrack4"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">05.</div>
+                                <div class="plTitle" id="MyTrack5"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">06.</div>
+                                <div class="plTitle" id="MyTrack6"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plItem">
+                                <div class="plNum">07.</div>
+                                <div class="plTitle" id="MyTrack7"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 		<!-- Footer -->
-    <footer id="footer">
-      <!-- Menu -->
-      <ul class="menu">
-        <li>&copy; Running Rabbit Website</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-      </ul>
-    </footer>
+    <footer>
+      <div class="center">
+        <p>&copy; Running Rabbit Website</p>
+      </div>
+    </footer>    
+    
+    
+      <!-- jQuery and Javascript -->
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="assets/js/music 2015.js"></script>
 
 	</body>
 </html>
