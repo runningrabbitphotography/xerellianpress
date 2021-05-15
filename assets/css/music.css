@@ -1,7 +1,7 @@
 /* Font Family
-================================================== */
+================================================== 
 
-@import url("http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
+@import url("http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");*/
 
 
 /* Desktop
@@ -59,7 +59,8 @@ html,body {
 -webkit-text-size-adjust:100%;
 background-color:#282828;
 color:#C8C7C8;
-font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font:20px/24px;
+/*font-family: "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 font-weight:300;
 padding:5px 0;
 }
